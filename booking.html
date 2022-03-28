@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+<title>Booking</title>
+</head>
+<body background="img/background2.jpeg" style="background-size:cover" style="background-repeat:no-repeat">
+<header>
+<a href="index.html"> 
+<img src="img/logo.jpg" title="Tempahan JPJ">
+</a>
+</header>
+<hr>
+<nav>
+<table cellspacing="10" cellpadding="10">
+
+<tr bgcolor="lightgray" align="center">
+<td><a href="index.html">HOME</a></td>
+<td><a href="contact.html">CONTACT</a></td>
+<td><a href="info.html">INFO</a></td>
+<td><a href="booking.html">BOOKING</a></td>
+</tr>
+</table>
+</nav>
+<hr>
+<h1 style="color:white">Tempahan temujanji memandu JPJ </h1>
+
+<style>
+form {width: 50%;}
+label {
+display: inline-block;
+
+clear: left;
+width: 90px;
+margin: 5px;
+text-align: left;
+}
+input[type="text"] {
+width: 250px;
+margin: 5px 0px;
+}
+legend {
+width: 60px;
+padding: 2px;
+margin-left: calc(40% - 35px - 6px);
+}
+</style>
+
+<body>
+	
+<form action="/action_page.php">
+<fieldset>
+<legend style="color:white;">Maklumat</legend>
+
+<label style="color:white;">Nama:</label>
+<input type="text">
+<br>
+<label style="color:white;"l>No ic:</label>
+<input type="text">
+<br>
+<label style="color:white;">Kategori:</label>
+<input type="text">		
+<br>
+
+<form action="/action_page.php">
+<label  style="color:white;" for="tarikh"> Tarikh temujanji:</label>
+<input type="datetime-local" id="tarikh" name="tarikh">
+</form>
+<br>
+
+<label style="color:white;" text="align-center">Jenis pengangkutan:</label>
+<form>
+  <input type="radio" id="kereta" name="fav_language" value="kereta">
+  <label style="color:white;" for="kereta">Kereta</label>
+  <input type="radio" id="Motor" name="fav_language" value="Motor">
+  <label style="color:white;" for="Motor">Motor</label>
+  <input type="radio" id="motor" name="fav_language" 
+  value="Lori">
+  <label style="color:white;" for="Lori">Lori</label>
+</form>
+
+
+<label style="color:white;" for="phone"> No.Telefon: </label>
+<input type="tel" id="telefon" name="Telefon" placeholder="etc 01123456789">
+
+</fieldset>
+</body>
+</br>
+
+<input type="submit" value="Tambah rekod" >
+</html>
+
+
+</body>
